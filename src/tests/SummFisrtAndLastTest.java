@@ -11,7 +11,7 @@ public class SummFisrtAndLastTest {
 	 @Test
 	    public void EvenNumber() {
 	       boolean temp = SummFisrtAndLast.summOfPart(6464);
-	        assertTrue( "10==10", temp);
+	        assertTrue( "10 != 10", temp);
 	    }
 
 	    @Test

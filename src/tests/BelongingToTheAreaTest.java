@@ -40,7 +40,7 @@ public class BelongingToTheAreaTest {
 	    
 	    @Test
 	    public void checkAreaZeroConditions() {
-	        assertTrue("zero conditions not accepted", BelongingToTheArea.chekBelonging(0,0));
+	        assertTrue("zero coord", BelongingToTheArea.chekBelonging(0,0));
 	    }
 	
 }
