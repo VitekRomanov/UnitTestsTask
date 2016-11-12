@@ -2,9 +2,9 @@ package medods;
 
 public class DegreesInSign {
 	
-	public static float [] choseDegrees(float a,float b, float c){
+	public static int [] choseDegrees(int a,int b, int c){
 		
-        float arr[] = {a, b, c};
+        int arr[] = {a, b, c};
         if (arr[0]>=0) { arr[0]=arr[0]*arr[0];}
         else arr[0]=arr[0]*arr[0]*arr[0]*arr[0];
         
@@ -16,7 +16,7 @@ public class DegreesInSign {
 		return arr;
 	}
 	public static void main(String args[]){
-		 float[] c = DegreesInSign.choseDegrees(0,4, -4);
+		int[] c = DegreesInSign.choseDegrees(0,4, -4);
 		System.out.println( c[0]);
 		System.out.println( c[1]);
 		System.out.println( c[2]);
